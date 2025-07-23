@@ -1,6 +1,6 @@
 module github.com/rudderlabs/rudder-server
 
-go 1.24.4
+go 1.19
 
 // Addressing snyk vulnerabilities in indirect dependencies
 // When upgrading a dependency, please make sure that
@@ -193,7 +193,6 @@ require (
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cloudflare/golz4 v0.0.0-20150217214814-ef862a3cdc58 // indirect
 	github.com/cncf/xds/go v0.0.0-20250501225837-2ac532fd4443 // indirect
-	github.com/containerd/containerd v1.7.27 // indirect
 	github.com/containerd/continuity v0.4.5 // indirect
 	github.com/coreos/go-oidc/v3 v3.11.0 // indirect
 	github.com/coreos/go-semver v0.3.1 // indirect

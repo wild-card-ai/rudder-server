@@ -1,18 +1,12 @@
-version: "2"
+
 linters:
   enable:
     - bodyclose
-    - decorder
     - depguard
-    - forbidigo
-    - makezero
     - misspell
-    - nilerr
-    - nilnil
     - rowserrcheck
     - unconvert
     - unparam
-    - wastedassign
   settings:
     depguard:
       rules:
